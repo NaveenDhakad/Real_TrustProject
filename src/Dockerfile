@@ -1,13 +1,14 @@
-# Use a Java 17 base image
+# Use a lightweight Java 17 base image
 FROM eclipse-temurin:17-jdk-alpine
 
-# Set working directory
+# Set working directory inside container
 WORKDIR /app
 
-# Copy the Maven build artifact (jar file)
-COPY target/placement-webapp-1.0.0.jar
-# Expose port 8080
+# Copy the Spring Boot jar from host to container
+COPY target/placement-webapp-1.0.0.jar app.jar
+
+# Expose the port the Spring Boot app runs on
 EXPOSE 8080
 
-# Run the jar file
+# Command to run the jar
 ENTRYPOINT ["java", "-jar", "app.jar"]
