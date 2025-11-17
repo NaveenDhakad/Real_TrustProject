@@ -1,15 +1,15 @@
-C:\Users\HP\OneDrive\Desktop\New Task Flippr\src\main\java\com\flipr\placement\repository\ContactFormRepository.java
-C:\Users\HP\OneDrive\Desktop\New Task Flippr\src\main\java\com\flipr\placement\repository\ProjectRepository.java
-C:\Users\HP\OneDrive\Desktop\New Task Flippr\src\main\java\com\flipr\placement\repository\ClientRepository.java
-C:\Users\HP\OneDrive\Desktop\New Task Flippr\src\main\java\com\flipr\placement\model\Newsletter.java
-C:\Users\HP\OneDrive\Desktop\New Task Flippr\src\main\java\com\flipr\placement\repository\NewsletterRepository.java
-C:\Users\HP\OneDrive\Desktop\New Task Flippr\src\main\java\com\flipr\placement\service\ContactFormService.java
-C:\Users\HP\OneDrive\Desktop\New Task Flippr\src\main\java\com\flipr\placement\service\ClientService.java
-C:\Users\HP\OneDrive\Desktop\New Task Flippr\src\main\java\com\flipr\placement\service\NewsletterService.java
-C:\Users\HP\OneDrive\Desktop\New Task Flippr\src\main\java\com\flipr\placement\controller\HomeController.java
-C:\Users\HP\OneDrive\Desktop\New Task Flippr\src\main\java\com\flipr\placement\model\Client.java
-C:\Users\HP\OneDrive\Desktop\New Task Flippr\src\main\java\com\flipr\placement\model\ContactForm.java
-C:\Users\HP\OneDrive\Desktop\New Task Flippr\src\main\java\com\flipr\placement\model\Project.java
-C:\Users\HP\OneDrive\Desktop\New Task Flippr\src\main\java\com\flipr\placement\PlacementApplication.java
-C:\Users\HP\OneDrive\Desktop\New Task Flippr\src\main\java\com\flipr\placement\service\ProjectService.java
-C:\Users\HP\OneDrive\Desktop\New Task Flippr\src\main\java\com\flipr\placement\controller\AdminController.java
+C:\Users\HP\OneDrive\Desktop\NewTaskFlippr\src\main\java\com\flipr\placement\controller\HomeController.java
+C:\Users\HP\OneDrive\Desktop\NewTaskFlippr\src\main\java\com\flipr\placement\service\ClientService.java
+C:\Users\HP\OneDrive\Desktop\NewTaskFlippr\src\main\java\com\flipr\placement\repository\NewsletterRepository.java
+C:\Users\HP\OneDrive\Desktop\NewTaskFlippr\src\main\java\com\flipr\placement\controller\AdminController.java
+C:\Users\HP\OneDrive\Desktop\NewTaskFlippr\src\main\java\com\flipr\placement\service\ProjectService.java
+C:\Users\HP\OneDrive\Desktop\NewTaskFlippr\src\main\java\com\flipr\placement\service\ContactFormService.java
+C:\Users\HP\OneDrive\Desktop\NewTaskFlippr\src\main\java\com\flipr\placement\repository\ProjectRepository.java
+C:\Users\HP\OneDrive\Desktop\NewTaskFlippr\src\main\java\com\flipr\placement\repository\ContactFormRepository.java
+C:\Users\HP\OneDrive\Desktop\NewTaskFlippr\src\main\java\com\flipr\placement\PlacementApplication.java
+C:\Users\HP\OneDrive\Desktop\NewTaskFlippr\src\main\java\com\flipr\placement\model\Client.java
+C:\Users\HP\OneDrive\Desktop\NewTaskFlippr\src\main\java\com\flipr\placement\model\ContactForm.java
+C:\Users\HP\OneDrive\Desktop\NewTaskFlippr\src\main\java\com\flipr\placement\model\Newsletter.java
+C:\Users\HP\OneDrive\Desktop\NewTaskFlippr\src\main\java\com\flipr\placement\service\NewsletterService.java
+C:\Users\HP\OneDrive\Desktop\NewTaskFlippr\src\main\java\com\flipr\placement\model\Project.java
+C:\Users\HP\OneDrive\Desktop\NewTaskFlippr\src\main\java\com\flipr\placement\repository\ClientRepository.java
