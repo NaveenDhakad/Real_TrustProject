@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Trust - Consultation, Design & Marketing</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head
+>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+           <img src="/images/logo.svg">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/admin/dashboard">Admin</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4 fw-bold mb-3">Consultation, Design, & Marketing</h1>
+                    <p class="lead mb-4">We provide expert consultation, stunning designs, and strategic marketing to help your business grow and succeed in today's competitive market.</p>
+                    <div class="d-flex gap-3">
+                        <a href="/contact" class="btn btn-light btn-lg">Get a Free Consultation</a>
+                        <a href="#projects" class="btn btn-outline-light btn-lg">View Our Work</a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card bg-secondary text-white p-4">
+                        <h4 class="mb-4">Get a Free Consultation</h4>
+                        <form method="GET" action="/contact">
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="Full Name" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" placeholder="Enter Email Address" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="tel" class="form-control" placeholder="Mobile Number" required>
+                            </div>
+                            <div class="mb-4">
+                                <input type="text" class="form-control" placeholder="Area, City" required>
+                            </div>
+                            <button type="submit" class="btn btn-secondary w-100">Get Quick Quote</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section id="services" class="bg-gradient-light">
+        <div class="container">
+            <h2>Why Choose Us?</h2>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h5>Potential ROI</h5>
+                        <p class="text-gray">We deliver high-impact solutions that maximize your return on investment and drive measurable business results.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-pencil"></i>
+                        </div>
+                        <h5>Design</h5>
+                        <p class="text-gray">Our expert designers craft beautiful, user-centric designs that capture your brand's essence and engage your audience.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-bullhorn"></i>
+                        </div>
+                        <h5>Marketing</h5>
+                        <p class="text-gray">Strategic marketing campaigns that amplify your message and drive meaningful engagement with your target audience.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-section">
+        <div class="background-decorations"></div>
+
+        <div class="image-gallery">
+            <div class="image-item item-1">
+                <img src="/images/pexels-andres-ayrton-6578391.svg" alt="Two men shaking hands">
+            </div>
+            <div class="image-item item-2 main-focus">
+                <img src="/images/pexels-brett-sayles-2881232.svg" alt="Group discussion indoors">
+            </div>
+            <div class="image-item item-3">
+                <img src="/images/pexels-fauxels-3182834.svg" alt="Couple signing papers">
+            </div>
+        </div>
+
+        <h2 class="section-title">About Us</h2>
+    </section>
+    <!-- About Us Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <h2>Not Your Average Realtor</h2>
+                    <p class="text-gray mb-3">13 years of experience in the real estate industry combined with cutting-edge marketing strategies that deliver results. Our collaborative approach with clients ensures transparency and trust throughout every stage of the process.</p>
+                    <a href="/contact" class="btn btn-primary">Learn More</a>
+                </div>
+                <div class="col-lg-6">
+                    <div class="position-relative" style="height: 300px;">
+                        <div class="client-avatar position-absolute" style="width: 150px; height: 150px; top: 0; left: 0;">
+                            <img src="\images\Ellipse 11.svg" alt="Team Member">
+                        </div>
+                        <div class="client-avatar position-absolute" style="width: 150px; height: 150px; top: 50px; right: 50px;">
+                            <img src="\images\Ellipse 12.svg" alt="Team Member">
+                        </div>
+                        <div class="client-avatar position-absolute" style="width: 150px; height: 150px; bottom: 0; right: 0;">
+                            <img src="\images\Ellipse 13.svg" alt="Team Member">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="newsletter-section">
+                <h3 class="text-center mb-4">Subscribe to Our Newsletter</h3>
+                <div class="row">
+                    <div class="col-md-8 mx-auto">
+                        <form method="POST" action="/subscribe-newsletter" class="newsletter-form">
+                            <input type="email" name="email" placeholder="Enter your email address" required>
+                            <button type="submit" class="btn btn-light">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Projects Section -->
+    <section id="projects" class="bg-gradient-light">
+        <div class="container">
+            <h2>Our Projects</h2>
+            <p class="text-center text-gray mb-5">We know what buyers are looking for and suggest projects that will bring clients top dollar for the sale of their homes.</p>
+            <div class="row g-4">
+                <div th:each="project : ${projects}" class="col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <img th:if="${project.imageData}" th:src="@{'/project/image/' + ${project.id}}" alt="Project" class="card-img-top">
+                        <img th:unless="${project.imageData}" src="/images/pexels-brett-sayles-2881232-3.svg" alt="Project" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title text-primary" th:text="${project.name}">Project Name</h5>
+                            <p class="card-text text-gray text-sm mb-3" th:text="${project.description}">Project Description</p>
+                            <a href="#" class="btn btn-secondary btn-sm w-100">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Happy Clients Section -->
+    <section id="testimonials" class="py-5">
+        <div class="container">
+            <h2>Happy Clients</h2>
+            <div class="row g-4">
+                <div th:each="client : ${clients}" class="col-md-6 col-lg-4">
+                    <div class="card h-100 text-center">
+                        <div class="card-body">
+                            <div class="client-avatar mb-3">
+                                <img th:if="${client.imageData}" th:src="@{'/client/image/' + ${client.id}}" alt="Client">
+                                <img th:unless="${client.imageData}" src="/images/pexels-brett-sayles-2881232-1.svg" alt="Client">
+                            </div>
+                            <h5 class="client-name" th:text="${client.name}">Client Name</h5>
+                            <p class="client-title" th:text="${client.designation}">Designation</p>
+                            <p class="card-text text-gray" th:text="${client.description}">Client testimonial and description about their experience working with us.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact CTA Section -->
+    <section class="bg-primary text-white py-5 ">
+        <div class="container text-center">
+            <h2 class="text-white mb-4">
+                Learn more about our listing process, as well as our additional staging and design work.
+            </h2>
+            <a href="/contact" class="btn btn-light btn-lg">Learn More</a>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5 class="text-white mb-3">Real Trust</h5>
+                    <p class="text-muted">Your trusted partner in real estate consultation, design, and marketing solutions.</p>
+                </div>
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5 class="text-white mb-3">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#projects" class="text-muted text-decoration-none">Projects</a></li>
+                        <li><a href="#services" class="text-muted text-decoration-none">Services</a></li>
+                        <li><a href="/contact" class="text-muted text-decoration-none">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="text-white mb-3">Follow Us</h5>
+                    <div class="d-flex gap-3">
+                        <a href="#" class="text-primary"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-primary"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-primary"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-primary"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="bg-secondary my-4">
+            <p class="text-center text-muted mb-0">&copy; 2025 Real Trust. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script th:src="@{/js/script.js}"></script>
+</body>
+</html>

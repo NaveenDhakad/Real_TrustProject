@@ -1,0 +1,423 @@
+:root {
+    --primary: #0066FF;
+    --primary-dark: #0052CC;
+    --secondary: #FF6633;
+    --light-bg: #F8FAFF;
+    --text-dark: #1A1A1A;
+    --text-gray: #666666;
+    --border-color: #E5E5E5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    color: var(--text-dark);
+}
+
+/* Enhanced gradient backgrounds and typography */
+.bg-gradient {
+    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+}
+
+.bg-gradient-light {
+    background: linear-gradient(180deg, var(--light-bg) 0%, #FFFFFF 100%);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    color: var(--text-dark);
+}
+
+h2 {
+    color: var(--primary);
+    position: relative;
+    display: inline-block;
+    margin-bottom: 2rem;
+}
+
+h2::after {
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 4px;
+    background: var(--secondary);
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 2px;
+}
+
+/* Enhanced card styling with hover effects */
+.card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 32px rgba(0, 102, 255, 0.15);
+}
+
+.card-img-top {
+    height: 220px;
+    object-fit: cover;
+}
+
+/* Feature card styling */
+.feature-card {
+    text-align: center;
+    padding: 2rem;
+    border-radius: 12px;
+    background: white;
+    border: 1px solid var(--border-color);
+}
+
+.feature-card:hover {
+    border-color: var(--primary);
+    box-shadow: 0 8px 24px rgba(0, 102, 255, 0.12);
+}
+
+.feature-icon {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+    border-radius: 12px;
+    color: white;
+    font-size: 1.5rem;
+}
+
+/* Button styling with secondary color */
+.btn {
+    border-radius: 8px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    border: none;
+    padding: 0.65rem 1.5rem;
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-dark);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 16px rgba(0, 102, 255, 0.3);
+}
+
+.btn-secondary {
+    background-color: var(--secondary);
+    color: white;
+}
+
+.btn-secondary:hover {
+    background-color: #E55A24;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 16px rgba(255, 102, 51, 0.3);
+}
+
+.btn-outline-secondary {
+    color: var(--secondary);
+    border: 2px solid var(--secondary);
+}
+
+.btn-outline-secondary:hover {
+    background-color: var(--secondary);
+    border-color: var(--secondary);
+}
+
+/* Client profile with circular images */
+.client-profile {
+    text-align: center;
+}
+
+.client-avatar {
+    width: 140px;
+    height: 140px;
+    margin: 0 auto 1rem;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 102, 255, 0.2);
+    border: 4px solid white;
+}
+
+.client-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.client-name {
+    font-weight: 600;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+}
+
+.client-title {
+    font-size: 0.9rem;
+    color: var(--secondary);
+    margin-bottom: 0.5rem;
+}
+
+/* Newsletter section styling */
+.newsletter-section {
+    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+    color: white;
+    padding: 3rem 2rem;
+    border-radius: 12px;
+}
+
+.newsletter-form {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.newsletter-form input {
+    flex: 1;
+    border-radius: 8px;
+    border: none;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+}
+
+/* Navigation enhancement */
+.navbar {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    padding: 1rem 0;
+        background-color : white !important ;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white !important;
+
+
+}
+ .navbar-nav .nav-link {
+     color: black !important;
+ }
+
+/* Section styling with proper spacing */
+section {
+    padding: 4rem 0;
+}
+
+section h2 {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+/* Hero section with overlay text */
+.hero-section {
+    background:  url('/images/young-couple-examining-blueprints-with-real-estate-agent-while-buying-new-home 1.svg');
+    background-size: cover;
+    color: white;
+    padding: 5rem 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-section::before {
+    content: '';
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background: rgba(255, 102, 51, 0.1);
+    border-radius: 50%;
+    top: -100px;
+    right: -100px;
+}
+
+/* Footer with blue background */
+footer {
+    background: var(--text-dark);
+    border-top: 4px solid var(--primary);
+    margin-top: auto;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Form controls styling */
+.form-control {
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px rgba(0, 102, 255, 0.1);
+}
+
+.form-control-lg {
+    padding: 1rem 1.25rem;
+    font-size: 1rem;
+}
+
+/* Table styling for admin panel */
+.table {
+    background-color: white;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.table thead {
+    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+    color: white;
+}
+
+.table tbody tr {
+    transition: background-color 0.2s ease;
+}
+
+.table tbody tr:hover {
+    background-color: var(--light-bg);
+}
+
+/* Badge styling */
+.badge {
+    padding: 0.5rem 0.75rem;
+    border-radius: 6px;
+    font-weight: 500;
+}
+
+.badge-primary {
+    background-color: var(--primary);
+}
+
+.badge-secondary {
+    background-color: var(--secondary);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 3rem 0;
+    }
+
+    .display-4 {
+        font-size: 2rem;
+    }
+
+    section {
+        padding: 2.5rem 0;
+    }
+
+    .card {
+        margin-bottom: 1rem;
+    }
+
+    h2::after {
+        width: 40px;
+    }
+
+    .newsletter-form {
+        flex-direction: column;
+    }
+
+    .client-avatar {
+        width: 100px;
+        height: 100px;
+    }
+}
+ .about-section {
+     position: relative; /* Needed for absolute positioning of background elements */
+     width: 100%;
+     min-height: 600px;
+     padding: 100px 50px;
+     background-color: #f7f9fc; /* Light background color */
+     overflow: hidden;
+ }
+
+ .image-gallery {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     max-width: 1200px;
+     margin: 0 auto;
+     position: relative;
+     z-index: 10; /* Ensures images are above decorations */
+ }
+
+ .image-item {
+     width: 20%; /* Adjust size as needed */
+     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+     position: relative;
+ }
+
+ .image-item img {
+     width: 100%;
+     display: block;
+     height: auto;
+ }
+
+ /* Specific styling for borders/accents seen in the original image */
+ .item-1::before {
+     content: '';
+     position: absolute;
+     bottom: -15px;
+     left: -15px;
+     width: 30px;
+     height: 30px;
+     border-bottom: 5px solid orange;
+     border-left: 5px solid orange;
+ }
+
+ .item-2::before {
+     /* Style for the blue corner accent (L-shape) over the main image */
+     content: '';
+     position: absolute;
+     top: -20px;
+     right: -20px;
+     width: 40px;
+     height: 40px;
+     border-top: 5px solid blue;
+     border-right: 5px solid blue;
+ }
+
+ /* Positioning the main focus image slightly different/larger */
+ .item-2 {
+     width: 35%; /* Larger size for the central image */
+     transform: translateY(-20px);
+ }
+
+ .section-title {
+     text-align: center;
+     margin-top: 50px;
+     color: #345beb;
+     font-size: 2em;
+     position: relative;
+     z-index: 10;
+ }
+
+ /* Example of a simple background decoration */
+ .background-decorations::before {
+     content: '';
+     position: absolute;
+     top: 10%;
+     left: 15%;
+     width: 150px;
+     height: 150px;
+     border-radius: 50%;
+     background-color: rgba(173, 216, 230, 0.3); /* Light Blue */
+ }
